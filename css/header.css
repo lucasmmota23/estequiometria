@@ -1,0 +1,83 @@
+.header {
+  background: linear-gradient(270.43deg, #9ef23a -3.1%, #4ba42a 106.85%);
+}
+
+/* NAVBAR */
+.nav {
+  display: flex;
+  padding: 50px 100px;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 180px;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  color: #fff;
+  font-weight: 500;
+}
+
+.menu a:hover {
+  border-bottom: 2px solid #eeeeee;
+  color: #eeeeee;
+}
+
+/* BANNER */
+.header-container {
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.header-container img {
+  width: 450px;
+}
+
+.header-container h1 {
+  color: #fff;
+  font-size: 8rem;
+  line-height: 1;
+}
+.header-container h1 span {
+  font-weight: 400;
+  font-size: 4rem;
+}
+
+.header-texto {
+  max-width: 600px;
+}
+
+.header-texto p {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.header-texto .logo-2 {
+  width: 100%;
+}
+
+.header-botao {
+  background-color: #ffc600;
+  padding: 0.5rem 3rem;
+  display: inline-block;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #1d5800;
+}
+
+.header-botao:hover {
+  background-color: #e9b600;
+}
