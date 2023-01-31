@@ -1,0 +1,19 @@
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px 100px;
+  color: #fff;
+  /* flex-wrap: wrap; */
+}
+
+.footer-container a {
+  text-decoration: none;
+  text-decoration: underline;
+  color: #1d5b00;
+  font-weight: 500;
+}
+
+footer {
+  background: linear-gradient(270.43deg, #9ef23a -3.1%, #4ba42a 106.85%);
+}
